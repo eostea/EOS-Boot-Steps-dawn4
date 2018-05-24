@@ -10,6 +10,4 @@
 
 INIT_ACCOUNT="$( jq -r '.INIT_ACCOUNT' "00_CONFIG.conf" )"
 
-./cleos.sh transfer eosio $INIT_ACCOUNT  "300000000.0000 EOS" "init"
-
-
+./cleos.sh transfer eosio $INIT_ACCOUNT  "300000000.0000 SYS" "init"

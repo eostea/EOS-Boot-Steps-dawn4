@@ -20,8 +20,7 @@ echo UserRes
 ./cleos.sh get table eosio eosio userres
 echo totalband
 ./cleos.sh get table eosio eosio totalband
-echo delband
+echo Delband
 ./cleos.sh get table eosio eosio delband
-echo refunds
+echo Refunds
 ./cleos.sh get table eosio eosio refunds
-
