@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NODEOSBINDIR="/path/to/eos/build/programs"
+NODEOSBINDIR="/root/eos/build/programs"
 
 WALLETHOST="127.0.0.1"
 NODEHOST="127.0.0.1"
