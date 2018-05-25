@@ -1,13 +1,4 @@
 #!/bin/bash
-################################################################################
-#
-# Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
-#
-# https://github.com/CryptoLions/
-#
-################################################################################
-
 
 SOURCES_FOLDER="$( jq -r '.SOURCES_FOLDER' "00_CONFIG.conf" )"
 CONTRACTS_FOLDER="$SOURCES_FOLDER/build/contracts"
