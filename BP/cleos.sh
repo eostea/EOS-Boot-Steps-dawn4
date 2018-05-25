@@ -1,10 +1,4 @@
 #!/bin/bash
-################################################################################
-#
-# Scrip Created by http://CryptoLions.io
-# https://github.com/CryptoLions/scripts/
-#
-###############################################################################
 
 NODEOSBINDIR="/path/to/eos/build/programs"
 
