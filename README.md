@@ -13,10 +13,10 @@ EOS版本: DAWN-2018-05-22
 4. 公布自己加入网络的BP信息(`account_name`,`Public_Key`,`p2p-server-address`).
 5. 克隆github用`config`下的文件代替`~/.local/share/eosio/nodeos/config`
 6. 更改`config.ini`文件配置    
-  1. `p2p-peer-address`
-  2. `producer-name`
-  3. `private-key`
-  4. `agent-name`
+    1. `p2p-peer-address`
+    1. `producer-name`
+    1. `private-key`
+    1. `agent-name`
 7. 在`BP`目录下：
     1. 运行`cleos wallet create`, 或`cd /path/to/eos/build/programs/cleos`执行`./cleos wallet create`,创建钱包，将创建钱包返回的钱包密码复制为`0000_CONFIG.conf`文件的`WALLET_PASSWD`对应的参数。
     2. `0000_CONFIG.conf`文件配置：
