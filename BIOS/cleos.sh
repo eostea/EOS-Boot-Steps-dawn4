@@ -8,5 +8,4 @@ NODEPORT="8888"
 WALLETPORT="8900"
 
 
-
 $NODEOSBINDIR/cleos/cleos -u http://$NODEHOST:$NODEPORT --wallet-url http://$WALLETHOST:$WALLETPORT "$@"
